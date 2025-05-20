@@ -4,7 +4,7 @@ this work could be done by haproxy, but haproxy don't support dynamic backend se
 
 usage:
 ```
-haproxy {}.test.com:25565 bc.{}.svc.local:25565
+mcdproxy {}.test.com:25565 bc.{}.svc.local:25565
 ```
 then a minecraft request with hostname ```xiaofeng.test.com:25565``` would be dynamicly proxied to ```bc.xiaofeng.svc.local:25565```
 
